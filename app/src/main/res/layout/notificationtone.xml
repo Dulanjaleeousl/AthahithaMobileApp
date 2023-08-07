@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationTone">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    android:layout_marginTop="65dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="@string/notification_1"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply1"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="@string/apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="@string/time"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginStart="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="@string/notification_2"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply2"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginStart="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="@string/notification_3"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply3"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="@string/notification_4"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply4"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginStart="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 5"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply5"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 6"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply6"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 7"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply7"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 8"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply8"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 9"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply9"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 10"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply10"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 11"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply11"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 12"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply12"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 13"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply13"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 14"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply14"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 15"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply15"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 16"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply16"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button17"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 17"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply17"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button18"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 18"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply18"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button19"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 19"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply19"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button20"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 20"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply20"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button21"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 21"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply21"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button22"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 22"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply22"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button23"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 23"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply23"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="410dp"
+                    android:layout_height="94dp"
+                    app:cardElevation="50dp">
+
+                    <Button
+                        android:id="@+id/button24"
+                        android:layout_width="270dp"
+                        android:layout_height="74dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Notification 24"
+                        android:textAlignment="viewStart"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/button1"
+                        app:layout_constraintVertical_bias="0.0" />
+
+
+                    <Button
+                        android:id="@+id/Apply24"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/round_button"
+                        android:text="Apply"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:text="time"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="30dp"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

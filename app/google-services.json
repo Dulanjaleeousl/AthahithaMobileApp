@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1090541640039",
+    "project_id": "athahitha-register-and-login",
+    "storage_bucket": "athahitha-register-and-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090541640039:android:8c4cce28cdb25be2d877c2",
+        "android_client_info": {
+          "package_name": "com.example.athahitha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090541640039-tcc2gnmljkpav4us7ia43usohocoli91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWUo8p_Pvl028YnycDk_KDOveXmoxb-po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090541640039-tcc2gnmljkpav4us7ia43usohocoli91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
